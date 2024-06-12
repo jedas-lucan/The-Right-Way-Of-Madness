@@ -36,31 +36,30 @@ nav ul li a {
     font-size: 32px;
 }
 
-.hero {
+.Main {
     text-align: center;
     padding: 50px 0;
-    background: linear-gradient(to bottom, #2c2c2c, #4a4a4a);
+    background: linear-gradient(to bottom, #7C0F0F, #7C0F0F);
 }
 
-.hero h1 {
+.Main h1 {
     font-family: 'Mountains of Christmas', cursive;
     font-size: 64px;
     color: red;
 }
 
-.hero h2, .hero .concept-art-book, .hero .date {
+.Main h2, .Main .concept-art-book, .Main .date {
     font-family: 'Mountains of Christmas', cursive;
     font-size: 75px;
     color: white;
 }
 
-.hero img {
+.Main img {
     width: 100%;
-    max-width: 600px;
     height: auto;
 }
 
-.hero .arrow-link {
+.Main .arrow-link {
     font-size: 24px;
     color: white;
     text-decoration: none;
