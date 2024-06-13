@@ -42,6 +42,13 @@ nav ul li a {
     background: linear-gradient(to bottom, #7C0F0F, #7C0F0F);
 }
 
+.purple-box {
+  width: 1728px;
+  height: 334px;
+  flex-shrink: 0;
+  background-color: #1F0F1E;
+}
+
 .Main h1 {
     width: 550px;
     height: 84px;
@@ -71,6 +78,15 @@ nav ul li a {
     color: white;
     text-decoration: none;
     margin-left: 10px;
+}
+
+.video {
+  background-color: var(--black);
+  height: 772px;
+  left: 100px;
+  position: absolute;
+  top: 229px;
+  width: 1307px;
 }
 
 .video-section {

@@ -1,0 +1,408 @@
+/* screen - main */
+
+
+.main {
+  background-color: #7c0e0e;
+  display: flex;
+  min-height: 8703px;
+  min-width: 1728px;
+  width: 100%;
+}
+
+.main .group-2 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 157px;
+  min-height: 8702.96px;
+  width: 1418.93px;
+}
+
+.main .overlap-group2 {
+  height: 1975px;
+  margin-left: 3.75px;
+  position: relative;
+  width: 1406px;
+}
+
+.main .main-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-height: 1671px;
+  position: absolute;
+  top: 0;
+  width: 1406px;
+}
+
+.main .color-up {
+  height: 272px;
+  width: 1406px;
+}
+
+.main .overlap-group1 {
+  height: 1399px;
+  margin-left: 0;
+  position: relative;
+  width: 1406px;
+}
+
+.main .color-down {
+  background: linear-gradient(180deg, rgb(31, 15, 30) 0%, rgb(124, 15, 15) 100%);
+  height: 579px;
+  left: 0;
+  position: absolute;
+  top: 820px;
+  width: 1406px;
+}
+
+.main .elina {
+  height: 821px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 1406px;
+}
+
+.main .logo {
+  height: 608px;
+  left: 104px;
+  object-fit: cover;
+  position: absolute;
+  top: 1367px;
+  width: 1199px;
+}
+
+.main .menu {
+  display: flex;
+  height: 68px;
+  left: 190px;
+  position: absolute;
+  top: 68px;
+  width: 1045px;
+}
+
+.main .title {
+  height: 67.55px;
+  letter-spacing: 0;
+  line-height: normal;
+  width: 126.97px;
+}
+
+.main .line {
+  height: 3px;
+  margin-left: 83.7px;
+  margin-top: 30.7px;
+  width: 74.88px;
+}
+
+.main .character-sheet {
+  cursor: pointer;
+  height: 67.55px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 95.4px;
+  margin-top: 0;
+  width: 232.77px;
+}
+
+.main .story-board {
+  cursor: pointer;
+  height: 67.55px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 96.2px;
+  margin-top: 0;
+  width: 170.92px;
+}
+
+.main .pilot-animation-project {
+  height: 58px;
+  left: 111px;
+  position: absolute;
+  top: 202px;
+  width: 433px;
+}
+
+.main .december-2025 {
+  height: 45px;
+  left: 1019px;
+  position: absolute;
+  top: 1088px;
+  width: 269px;
+}
+
+.main .concept-artwork {
+  cursor: pointer;
+  height: 89px;
+  margin-left: 4.57px;
+  margin-top: 77px;
+  width: 497px;
+}
+
+.main .overlap-group {
+  height: 983px;
+  margin-left: 3.93px;
+  margin-top: 255px;
+  position: relative;
+  width: 1407px;
+}
+
+.main .rectangle-2 {
+  background: linear-gradient(180deg, rgb(124, 15, 15) 0%, rgb(255, 255, 255) 50%, rgb(124, 15, 15) 100%);
+  height: 983px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1406px;
+}
+
+.main .video {
+  background-color: var(--black);
+  height: 628px;
+  left: 69px;
+  position: absolute;
+  top: 186px;
+  width: 1064px;
+  z-index: 1; /* 동영상이 TV 이미지 뒤에 위치하게 함 */
+}
+
+.main .tv {
+  height: 774px;
+  left: 0;
+  position: absolute;
+  top: 114px;
+  width: 1407px;
+  z-index: 2; /* TV 이미지가 동영상 앞에 위치하게 함 */
+  pointer-events: none; /* 클릭 이벤트를 무시하여 동영상 재생을 허용 */
+}
+
+.main .overlap-group5 {
+  align-items: center;
+  background: linear-gradient(180deg, rgb(124, 15, 15) 0%, rgb(31, 15, 30) 25%, rgb(31, 15, 30) 75%, rgb(124, 15, 15) 100%);
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  margin-left: 3.75px;
+  margin-top: 143px;
+  min-height: 1263px;
+  padding: 120.5px 0;
+  width: 1406px;
+}
+
+.main .gallery {
+  height: 89px;
+  margin-right: 0;
+  width: 168px;
+}
+
+.main .frame-2::-webkit-scrollbar {
+  display: none;
+  width: 0;
+}
+
+.main .frame-2 {
+  position: relative;
+}
+
+.main .illust {
+  height: 727px;
+  width: 454px;
+  position: relative;
+}
+
+.main .illust-1 {
+  height: 727px;
+  width: 724px;
+  position: relative;
+}
+
+.main .rectangle-33 {
+  height: 727px;
+  object-fit: cover;
+  position: relative;
+  width: 543px;
+}
+
+.main .illust-2 {
+  height: 727px;
+  width: 967px;
+  object-fit: cover;
+  position: relative;
+
+}
+
+.main .illust-3 {
+  height: 727px;
+  object-fit: cover;
+  width: 545px;
+  position: relative;
+}
+
+.main .illust-4 {
+  height: 727px;
+  width: 545px;
+  position: relative;
+  object-fit: cover;
+}
+
+.main .illust-5 {
+  height: 727px;
+  width: 547px;
+  position: relative;
+  object-fit: cover;
+}
+
+.main .overlap-group4 {
+  height: 1296px;
+  margin-left: 3.75px;
+  margin-top: 146px;
+  position: relative;
+  width: 1406px;
+}
+
+.main .rectangle-32 {
+  background: linear-gradient(180deg, rgb(124, 15, 15) 0%, rgb(31, 15, 30) 25%, rgb(31, 15, 30) 75%, rgb(124, 15, 15) 100%);
+  height: 1263px;
+  left: 0;
+  position: absolute;
+  top: 33px;
+  width: 1406px;
+}
+
+.main .frame-3::-webkit-scrollbar {
+  display: none;
+  width: 0;
+}
+
+.main .frame-3 {
+  left: 0;
+  position: absolute;
+  top: 302px;
+}
+
+.main .illust-4 {
+  height: 899px;
+  margin-bottom: -81.10px;
+  margin-top: -81.10px;
+  width: 1594px;
+}
+
+.main .illust-5 {
+  height: 889px;
+  margin-bottom: -81.10px;
+  margin-top: -81.10px;
+  width: 1582.54px;
+}
+
+.main .illust-6 {
+  height: 889px;
+  margin-bottom: -81.10px;
+  margin-top: -81.10px;
+  width: 1042.65px;
+}
+
+.main .illust-7 {
+  height: 889px;
+  margin-bottom: -81.10px;
+  margin-top: -81.10px;
+  width: 1303.73px;
+}
+
+.main .illust-8 {
+  height: 889px;
+  margin-bottom: -81.10px;
+  margin-top: -81.10px;
+  width: 1338.46px;
+}
+
+.main .visit-koontz-house {
+  cursor: pointer;
+  height: 242px;
+  left: 458px;
+  position: absolute;
+  top: 0;
+  width: 490px;
+}
+
+.main .storytelling-tutorial {
+  cursor: pointer;
+  height: 85px;
+  margin-left: 4.57px;
+  margin-top: 234px;
+  width: 504px;
+}
+
+.main .team {
+  align-self: flex-start;
+  height: 1106px;
+  margin-top: 486px;
+  width: 1406px;
+}
+
+.main .overlap-group3 {
+  height: 534px;
+  margin-left: 3.75px;
+  margin-top: 33px;
+  position: relative;
+  width: 1406px;
+}
+
+.main .sns {
+  background: linear-gradient(180deg, rgb(124, 15, 15) 0%, rgb(22, 0, 0) 100%);
+  display: flex;
+  gap: 86.6px;
+  height: 534px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1406px;
+}
+
+.main .insta {
+  cursor: pointer;
+  height: 70.33px;
+  margin-left: 136.7px;
+  margin-top: 366.3px;
+  width: 68.25px;
+}
+
+.main .x {
+  cursor: pointer;
+  height: 66.56px;
+  margin-top: 369.8px;
+  width: 69.47px;
+}
+
+.main .youtube {
+  cursor: pointer;
+  height: 51.65px;
+  margin-top: 376.8px;
+  width: 68.86px;
+}
+
+.main .join {
+  height: 199px;
+  left: 653px;
+  position: absolute;
+  top: 271px;
+  width: 624px;
+}
+
+.main .frame {
+  align-items: center;
+  display: flex;
+  gap: 46px;
+  height: 727px;
+  justify-content: center;
+  overflow: hidden;
+  overflow-x: scroll;
+  width: 1406px;
+}
+
+.main .illust-9 {
+  object-fit: cover;
+  position: relative;
+}

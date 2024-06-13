@@ -1,0 +1,58 @@
+:root { 
+  --black: #000000;
+  --dark-burgundy: #7c0f0f;
+  --melon: #ffb9b9bd;
+  --sweet-pink: #ff9f9f;
+  --white: #ffffff;
+ 
+  --font-size-l: 17px;
+  --font-size-m: 16px;
+  --font-size-xl: 20px;
+  --font-size-xxl: 25px;
+  --font-size-xxxl: 30px;
+  --font-size-xxxxl: 48px;
+  --font-size-xxxxxl: 128px;
+ 
+  --font-family-inknut_antiqua: "Inknut Antiqua", Helvetica;
+  --font-family-open_sans_condensed: "Open Sans Condensed", Helvetica;
+  --font-family-open_sans_hebrew_condensed-light: "Open Sans Hebrew Condensed-Light", Helvetica;
+  --font-family-orelega_one: "Orelega One", Helvetica;
+}
+.inknutantiqua-normal-white-16px {
+  color: var(--white);
+  font-family: var(--font-family-inknut_antiqua);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inknutantiqua-normal-white-16px-2 {
+  font-family: var(--font-family-inknut_antiqua);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inknutantiqua-normal-sweet-pink-25px {
+  color: var(--sweet-pink);
+  font-family: var(--font-family-inknut_antiqua);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.opensanshebrewcondensed-light-white-20px {
+  color: var(--white);
+  font-family: var(--font-family-open_sans_hebrew_condensed-light);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 300;
+}
+
+.inknutantiqua-normal-white-26px {
+  color: var(--white);
+  font-family: var(--font-family-inknut_antiqua);
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+}
