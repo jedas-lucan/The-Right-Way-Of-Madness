@@ -43,9 +43,16 @@ nav ul li a {
 }
 
 .Main h1 {
-    font-family: 'Mountains of Christmas', cursive;
+    width: 550px;
+    height: 84px;
+    flex-shrink: 0;
+    color: #E42D2D;
+    text-align: center;
+    font-family: "Mountains of Christmas";
     font-size: 64px;
-    color: red;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .Main h2, .Main .concept-art-book, .Main .date {
